@@ -1,9 +1,10 @@
 #ifndef DATOS
 #define DATOS
+void registrar_bitacora(char *usuario, char *accion);
 void imprimirMenu2D();
 void imprimirMenu3D();
-void calcular3D();
-void calcular2D();
+void calcular3D(char *usuario);
+void calcular2D(char *usuario);
 
 //Geometria 3D
 void calcularConoCircularRecto();
